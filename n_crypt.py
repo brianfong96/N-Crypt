@@ -62,6 +62,8 @@ def n_crypt(data, key, decrypt = False):
 if __name__ == "__main__":
     import custom_utils as cutils
     import sys
+    # To test run
+    # python n_crypt.py _random.txt key _random.ncrypt test/
     original_filename = sys.argv[1]
     key = sys.argv[2]
     output_filename = sys.argv[3]

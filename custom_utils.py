@@ -24,15 +24,3 @@ def write_file(data, file_name):
     with open(file_name, 'wb') as f:
         f.write(data)
     f.close()    
-
-
-if __name__ == "__main__":
-    def test_read_file():
-        """
-        Unit test for read_file()
-        """
-        data = read_file('sub_transpose.py')        
-        print(data)
-        return
-    test_read_file()
-    pass
